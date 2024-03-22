@@ -1,0 +1,31 @@
+@prefix focu: <http://focu.io/schema#> .
+@prefix focudata: <http://focu.io/data#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+focu:lecture_1 a focu:Lectures ;
+    focudata:OtherMaterial "[WZRH14, Chapters 2, 4] (RDF, FOAF)"^^xsd:string ;
+    focudata:Reading "[Yu14, Chapter 7] (FOAF)"^^xsd:string ;
+    focudata:Slides "file:///C:/Users/PC/Documents/GitHub/RoboProf/Dataset/Slides/slides03.pdf"^^xsd:string ;
+    focudata:Worksheets "file:///C:/Users/PC/Documents/GitHub/RoboProf/Dataset/Worksheets/worksheet03.pdf"^^xsd:string ;
+    focudata:lectureName "KnowledgeGraphs"^^xsd:string ;
+    focudata:lectureNumber 1 ;
+    focudata:lectureWebpage <http://www.w3.org/People/Ivan/CorePresentations/RDFTutorial/> .
+
+focu:lecture_2 a focu:Lectures ;
+    focudata:OtherMaterial "https://en.wikipedia.org/wiki/Watson_(computer)"^^xsd:string ;
+    focudata:Reading "https://plato.stanford.edu/entries/artificial-intelligence/"^^xsd:string ;
+    focudata:Slides "file:///C:/Users/PC/Documents/GitHub/RoboProf/Dataset/Slides/slides01.pdf"^^xsd:string ;
+    focudata:Worksheets "file:///C:/Users/PC/Documents/GitHub/RoboProf/Dataset/Worksheets/worksheet01.pdf"^^xsd:string ;
+    focudata:lectureName "IntroductionToIntelligentSystems"^^xsd:string ;
+    focudata:lectureNumber 2 ;
+    focudata:lectureWebpage <https://en.wikipedia.org/wiki/ELIZA> .
+
+focu:lecture_3 a focu:Lectures ;
+    focudata:OtherMaterial "[PS12, Chapter 7] (ML Training)"^^xsd:string ;
+    focudata:Reading "[MG17, Chapters 2, 3, 5] (kNN, k-Means, Evaluation)"^^xsd:string ;
+    focudata:Slides "file:///C:/Users/PC/Documents/GitHub/RoboProf/Dataset/Slides/slides06.pdf"^^xsd:string ;
+    focudata:Worksheets "file:///C:/Users/PC/Documents/GitHub/RoboProf/Dataset/Worksheets/worksheet06.pdf"^^xsd:string ;
+    focudata:lectureName "MachineLearning"^^xsd:string ;
+    focudata:lectureNumber 3 ;
+    focudata:lectureWebpage <https://concordiauniversity.on.worldcat.org/oclc/960211579> .
+

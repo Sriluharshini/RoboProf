@@ -1,0 +1,19 @@
+@prefix focu: <http://focu.io/schema#> .
+@prefix focudata: <http://focu.io/data#> .
+
+focu:Computer_Vision a focu:Topic ;
+    focudata:dbpediaTopicLink "http://dbpedia.org/resource/Computer_vision" ;
+    focudata:topicName "Computer Vision" .
+
+focu:Knowledge_Representation a focu:Topic ;
+    focudata:dbpediaTopicLink "http://dbpedia.org/resource/Knowledge_representation" ;
+    focudata:topicName "Knowledge Representation" .
+
+focu:Machine_Learning a focu:Topic ;
+    focudata:dbpediaTopicLink "http://dbpedia.org/resource/Machine_learning" ;
+    focudata:topicName "Machine Learning" .
+
+focu:Natural_Language_Processing a focu:Topic ;
+    focudata:dbpediaTopicLink "http://dbpedia.org/resource/Natural_language_processing" ;
+    focudata:topicName "Natural Language Processing" .
+

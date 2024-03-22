@@ -1,0 +1,4 @@
+ID,FirstName,LastName,StudentID,Email,CompletedCourses,Grades,Competencies
+1,John,Doe,123456,johndoe@example.com,COMP103,"A,",Mathematics
+2,Jane,Smith,789012,janesmith@example.com,COMP101,B+,Statistics
+3,Alice,Johnson,345678,alicejohnson@example.com,COMP202,B,Programming
