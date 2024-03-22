@@ -1,0 +1,22 @@
+@prefix focu: <http://focu.io/schema#> .
+@prefix focudata: <http://focu.io/data#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+focudata:course_474 a focu:Course ;
+    focudata:CourseCredits 4 ;
+    focudata:CourseDescription "Knowledge_Representation_and_Reasoning."^^xsd:string ;
+    focudata:CourseName "Intelligent Systems"^^xsd:string ;
+    focudata:CourseNumber "474"^^xsd:string ;
+    focudata:CourseSubject "COMP"^^xsd:string ;
+    focudata:courseOutline <https://moodle.concordia.ca/moodle/pluginfile.php/6419696/course/section/2181768/course_outline_comp474_6741_w2024.pdf> ;
+    focudata:courseWebpage <https://groups.csail.mit.edu/medg/ftp/psz/k-rep.html> .
+
+focudata:course_6721 a focu:Course ;
+    focudata:CourseCredits 4 ;
+    focudata:CourseDescription "Introduction_To_Artifical_Intelligence_and_Machine_Learning."^^xsd:string ;
+    focudata:CourseName "Applied Artificial Intelligence"^^xsd:string ;
+    focudata:CourseNumber "6721"^^xsd:string ;
+    focudata:CourseSubject "COMP"^^xsd:string ;
+    focudata:courseOutline <https://moodle.concordia.ca/moodle/mod/resource/view.php?id=3771099> ;
+    focudata:courseWebpage <https://aits.encs.concordia.ca/aits/public/top/courses/20221/05/COMP6721.html> .
+

@@ -1,0 +1,290 @@
+# Vocabulary or Schema
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix focu: <http://focu.io/schema#> .
+@prefix focudata: <http://focu.io/data#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix wiki:<https://www.wikidata.org/entity> .
+
+# 1. University class
+
+focu:University
+  a rdfs:Class ;
+  rdfs:label "University Class"@en ;
+  rdfs:label "Université"@fr ;
+  rdfs:comment "Welcome to university where you’ll have the freedom to create and then pursue your own academic goals."@en ;
+ rdfs:seeAlso <http://dbpedia.org/resource/Concordia_University> .
+
+# 2. Course class
+focu:Course a rdfs:Class ;
+       rdfs:label "Course" .
+
+# 3. Lectures class
+focu:Lectures a rdfs:Class ;
+    rdfs:label "Lectures" .
+
+# 4. Topic class
+focu:Topic a rdfs:Class ;
+        rdfs:label "Topic" .
+
+# 5. Student class
+focu:Student a rdfs:Class ;
+    rdfs:subClassOf foaf:Person ;
+    rdfs:label "Student"@en ;
+    rdfs:label "Etudiant"@fr .
+
+# 6. Slides Class
+focu:Slides rdf:type owl:Class ;
+    rdfs:subClassOf focu:Lectures ;
+    rdfs:label "Slides" .
+
+#7. Reading
+focu:Reading rdf:type owl:Class ;
+    rdfs:subClassOf focu:Lectures ;
+    rdfs:label "Reading" .
+
+# 8. Worksheets
+focu:Worksheets rdf:type owl:Class ;
+    rdfs:subClassOf focu:Lectures ;
+    rdfs:label "Worksheets" .
+
+# 9. Other Material
+focu:OtherMaterial rdf:type owl:Class ;
+    rdfs:subClassOf focu:Lectures ;
+    rdfs:label "Other Material" .
+
+# Properties
+
+# University properties - Object Properties
+
+focu:hasCourse a owl:ObjectProperty ;
+    rdfs:domain focu:University ;
+    rdfs:range focu:Course ;
+    rdfs:label "University has a course" .
+
+focu:hasStudent a owl:ObjectProperty ;
+    rdfs:domain focu:University ;
+    rdfs:range focu:Student ;
+    rdfs:label "University has a course" .
+
+# Student Object Properties 
+
+focu:enrolledAt rdf:type owl:ObjectProperty ;
+    owl:inverseOf focu:hasStudent ;
+    rdfs:domain focu:Student ;
+    rdfs:range focu:University ;
+    rdfs:label "enrolled at" .
+
+focu:enrolledIn rdf:type owl:ObjectProperty ;
+    owl:inverseOf focu:hasStudent ;
+    rdfs:domain focu:Student ;
+    rdfs:range focu:Course ;
+    rdfs:label "enrolled in" .
+
+focu:offeredBy rdf:type owl:ObjectProperty ;
+    owl:inverseOf focu:hasCourse ;
+    rdfs:domain focu:Course ;
+    rdfs:range focu:University ;
+    rdfs:label "offered by" .
+
+# Course properties
+
+focu:hasTopic a owl:ObjectProperty ;
+    rdfs:domain focu:Course ;
+    rdfs:range focu:Topic ;
+    rdfs:label "Lecture added to the course" .
+
+focu:hasStudent a owl:ObjectProperty ;
+    rdfs:domain focu:Course ;
+    rdfs:range focu:Student ;
+    rdfs:label "Lecture added to the course" .
+
+focu:hasLectures a owl:ObjectProperty ;
+    rdfs:domain focu:Course ;
+    rdfs:range focu:Lectures ;
+    rdfs:label "Lecture added to the course" .
+
+
+# Lecture properties           
+               
+focu:hasTopics rdf:type owl:ObjectProperty ;
+    rdfs:domain focu:Lectures ;
+    rdfs:range focu:Topics ;
+    rdfs:label "has topics" .
+
+focu:hasSlides rdf:type owl:ObjectProperty ;
+    rdfs:domain focu:Lectures ;
+    rdfs:range focu:Slides ;
+    rdfs:label "has slides" .
+
+focu:hasReading rdf:type owl:ObjectProperty ;
+    rdfs:domain focu:Lectures ;
+    rdfs:range focu:Reading ;
+    rdfs:label "has Reading material" .
+
+focu:hasWorksheets rdf:type owl:ObjectProperty ;
+    rdfs:domain focu:Lectures ;
+    rdfs:range focu:Worksheets ;
+    rdfs:label "has worksheets" .
+
+focu:hasOtherMaterial rdf:type owl:ObjectProperty ;
+    rdfs:domain focu:Lectures ;
+    rdfs:range focu:OtherMaterial ;
+    rdfs:label "has other material" .
+
+
+#topics properties
+focu:hasSlides rdf:type owl:ObjectProperty ;
+    rdfs:domain focu:Topic ;
+    rdfs:range focu:Slides ;
+    rdfs:label "has slides" .
+
+# Datatype Properties
+
+# University properties -
+
+focu:universityName rdf:type owl:DatatypeProperty ;
+    rdfs:domain focu:University ;
+    rdfs:range xsd:string ;
+    rdfs:label "University Name" .
+
+focu:dbpediaLink rdf:type owl:DatatypeProperty ;
+    rdfs:domain focu:University ;
+    rdfs:range xsd:anyURI ;
+    rdfs:label "DBpedia Link" .
+
+focu:wikidataLink rdf:type owl:DatatypeProperty ;
+    rdfs:domain focu:University ;
+    rdfs:range xsd:anyURI ;
+    rdfs:label "Wikidata Link" .
+
+
+# Course attributes
+focudata:courseName a owl:DatatypeProperty ;
+    rdfs:domain focu:Course ;
+    rdfs:range xsd:string ;
+    rdfs:label "course name" .
+
+focudata:courseSubject a owl:DatatypeProperty ;
+    rdfs:domain focu:Course ;
+    rdfs:range xsd:string ;
+    rdfs:label "course subject" .
+
+focudata:courseNumber a owl:DatatypeProperty ;
+    rdfs:domain focu:Course ;
+    rdfs:range xsd:string ;
+    rdfs:label "course number" .
+
+focudata:courseCredits a owl:DatatypeProperty ;
+    rdfs:domain focu:Course ;
+    rdfs:range xsd:integer ;
+    rdfs:label "course credits" .
+
+focudata:courseDescription a owl:DatatypeProperty ;
+    rdfs:domain focu:Course ;
+    rdfs:range xsd:string ;
+    rdfs:label "course description" .
+
+focudata:courseWebpage a owl:DatatypeProperty ;
+    rdfs:domain focu:Course ;
+    rdfs:range xsd:anyURI ;
+    rdfs:label "course webpage" .
+
+focudata:courseOutline a owl:DatatypeProperty ;
+    rdfs:domain focu:Course ;
+    rdfs:range xsd:anyURI ;
+    rdfs:label "course outline" .
+
+# Lecture attributes
+focudata:lectureNumber a owl:DatatypeProperty ;
+    rdfs:domain focu:Lecture ;
+    rdfs:range xsd:integer ;
+    rdfs:label "lecture number" .
+
+focudata:lectureName a owl:DatatypeProperty ;
+    rdfs:domain focu:Lecture ;
+    rdfs:range xsd:string ;
+    rdfs:label "lecture name" .
+
+focudata:Slides a owl:DatatypeProperty ;
+    rdfs:domain focu:Slides ;
+    rdfs:range xsd:string ;
+    rdfs:label "Slide urls" .
+
+focudata:Worksheets a owl:DatatypeProperty ;
+    rdfs:domain focu:Worksheets ;
+    rdfs:range xsd:string ;
+    rdfs:label "Worksheets" .
+
+focudata:Reading a owl:DatatypeProperty ;
+    rdfs:domain focu:Reading ;
+    rdfs:range xsd:string ;
+    rdfs:label "Reading" .
+
+focudata:OtherMaterial a owl:DatatypeProperty ;
+    rdfs:domain focu:OtherMaterial ;
+    rdfs:range xsd:string ;
+    rdfs:label "Other Material from Lecture content" .
+
+focudata:lectureWebpage a owl:DatatypeProperty ;
+    rdfs:domain focu:Lecture ;
+    rdfs:range xsd:anyURI ;
+    rdfs:label "lecture webpage" .
+
+# Topic attributes
+focudata:topicName a owl:DatatypeProperty ;
+    rdfs:domain focu:Topic ;
+    rdfs:range xsd:string ;
+    rdfs:label "topic name" .
+
+focudata:dbpediaTopicLink a owl:DatatypeProperty ;
+    rdfs:domain focu:Topic ;
+    rdfs:range xsd:anyURI ;
+    rdfs:label "DBpedia topic link" .
+
+# Slides attributes
+focudata:slideName a owl:DatatypeProperty ;
+    rdfs:domain focu:Slide ;
+    rdfs:range xsd:string ;
+    rdfs:label "Slide name" .
+
+focudata:slideURI a owl:DatatypeProperty ;
+    rdfs:domain focu:Slide ;
+    rdfs:range xsd:anyURI ;
+    rdfs:label "Slide topic link" .
+
+
+# Student attributes Data Properties
+
+focudata:studentName a owl:DatatypeProperty ;
+    rdfs:domain focu:Student ;
+    rdfs:range xsd:string ;
+    rdfs:label "student name" .
+
+focudata:studentID a owl:DatatypeProperty ;
+    rdfs:domain focu:Student ;
+    rdfs:range xsd:string ;
+    rdfs:label "student ID" .
+
+focudata:studentEmail a owl:DatatypeProperty ;
+    rdfs:domain focu:Student ;
+    rdfs:range xsd:string ;
+    rdfs:label "student email" .
+
+focudata:completedCourses a owl:DatatypeProperty ;
+    rdfs:domain focu:Student ;
+    rdfs:range xsd:string ;
+    rdfs:label "completed courses" .
+
+focudata:courseGrade a owl:DatatypeProperty ;
+    rdfs:domain focu:Student ;
+    rdfs:range xsd:string ;
+    rdfs:label "course grade" .
+
+focudata:competencyTopics a owl:DatatypeProperty ;
+    rdfs:domain focu:Student ;
+    rdfs:range xsd:string ;
+    rdfs:label "competencyTopics" .

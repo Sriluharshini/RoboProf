@@ -1,0 +1,42 @@
+@prefix focu: <http://focu.io/schema#> .
+@prefix focudata: <http://focu.io/data#> .
+
+focu:lecture_1 focu:hasTopics focudata:Knowledge_Representation .
+
+focu:lecture_2 focu:hasTopics focudata:IntroductionToIntelligentSystems .
+
+focudata:Jane_Smith focu:enrolledAt focudata:Concordia_University ;
+    focu:enrolledIn focudata:course_COMP_474 .
+
+focudata:John_Doe focu:enrolledAt focudata:Concordia_University ;
+    focu:enrolledIn focudata:course_COMP_6721 .
+
+focudata:course_COMP_474 focu:hasLectures focu:lecture_1,
+        focu:lecture_2,
+        focu:lecture_3 ;
+    focu:hasStudent focudata:Alice_Johnson,
+        focudata:Jane_Smith ;
+    focu:hasTopic focudata:Knowledge_Representation,
+        focudata:Machine_Learning,
+        focudata:Natural_Language_Processing .
+
+focudata:course_COMP_6721 focu:hasLectures focu:lecture_3 ;
+    focu:hasStudent focudata:Alice_Johnson,
+        focudata:John_Doe ;
+    focu:hasTopic focudata:Computer_Vision,
+        focudata:Machine_Learning .
+
+focu:lecture_3 focu:hasTopics focudata:Machine_Learning .
+
+focudata:Alice_Johnson focu:enrolledAt focudata:Concordia_University ;
+    focu:enrolledIn focudata:course_COMP_474,
+        focudata:course_COMP_6721 .
+
+focudata:Concordia_University focu:hasStudent focudata:Alice_Johnson,
+        focudata:Jane_Smith,
+        focudata:John_Doe .
+
+focudata:Knowledge_Representation focu:hasSlides focudata:slides03 .
+
+focudata:Machine_Learning focu:hasSlides focudata:slides06 .
+

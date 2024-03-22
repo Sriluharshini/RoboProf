@@ -1,0 +1,31 @@
+@prefix focu: <http://focu.io/schema#> .
+@prefix focudata: <http://focu.io/data#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+focu:Alice_Johnson a focu:Student ;
+    focudata:competencyTopics "Programming" ;
+    focudata:completedCourses "COMP202" ;
+    focudata:firstName "Alice" ;
+    focudata:lastName "Johnson" ;
+    focudata:studentEmail "alicejohnson@example.com" ;
+    focudata:studentGrades "B" ;
+    focudata:studentID 345678 .
+
+focu:Jane_Smith a focu:Student ;
+    focudata:competencyTopics "Statistics" ;
+    focudata:completedCourses "COMP101" ;
+    focudata:firstName "Jane" ;
+    focudata:lastName "Smith" ;
+    focudata:studentEmail "janesmith@example.com" ;
+    focudata:studentGrades "B+" ;
+    focudata:studentID 789012 .
+
+focu:John_Doe a focu:Student ;
+    focudata:competencyTopics "Mathematics" ;
+    focudata:completedCourses "COMP103" ;
+    focudata:firstName "John" ;
+    focudata:lastName "Doe" ;
+    focudata:studentEmail "johndoe@example.com" ;
+    focudata:studentGrades "A," ;
+    focudata:studentID 123456 .
+

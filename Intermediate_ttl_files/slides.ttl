@@ -1,0 +1,15 @@
+@prefix focu: <http://focu.io/schema#> .
+@prefix focudata: <http://focu.io/data#> .
+
+focu:IntroductionToIntelligentSystems a focu:Slide ;
+    focudata:slideName "IntroductionToIntelligentSystems" ;
+    focudata:slideURI "file:///C:/Users/PC/Documents/GitHub/RoboProf/Dataset/Slides/slides01.pdf" .
+
+focu:IntroductionToKnowledgeGraphs a focu:Slide ;
+    focudata:slideName "IntroductionToKnowledgeGraphs" ;
+    focudata:slideURI "file:///C:/Users/PC/Documents/GitHub/RoboProf/Dataset/Slides/slides03.pdf" .
+
+focu:IntroductionToMachineLearning a focu:Slide ;
+    focudata:slideName "IntroductionToMachineLearning" ;
+    focudata:slideURI "file:///C:/Users/PC/Documents/GitHub/RoboProf/Dataset/Slides/slides03.pdf" .
+

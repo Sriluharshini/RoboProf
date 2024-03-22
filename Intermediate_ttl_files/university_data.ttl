@@ -1,0 +1,9 @@
+@prefix focu: <http://focu.io/schema#> .
+@prefix focudata: <http://focu.io/data#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+focu:Concordia_University a focu:University ;
+    focudata:dbpediaLink <https://dbpedia.org/page/Concordia_University> ;
+    focudata:universityName "Concordia_University"^^xsd:string ;
+    focudata:wikidataLink <https://www.wikidata.org/entity/Q326342> .
+
