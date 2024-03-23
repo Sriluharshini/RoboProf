@@ -1,0 +1,16 @@
+# 7. For the course_COMP_474, what additional resources (links to web pages) are available?
+
+PREFIX fo: <http://www.w3.org/1999/XSL/Format#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX focu: <http://focu.io/schema#>
+prefix focudata: <http://focu.io/data#>
+
+SELECT ?givenCourseName ?lectures ?webPages
+WHERE {
+  focudata:course_COMP_474 focu:hasLectures ?lectures ;
+                      focudata:CourseName ?givenCourseName .
+  ?lectures focudata:lectureWebpage ?webPages . 
+}

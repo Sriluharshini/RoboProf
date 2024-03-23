@@ -1,0 +1,4 @@
+SELECT (COUNT(*) AS ?totalTriples)
+WHERE {
+  ?subject ?predicate ?object .
+}

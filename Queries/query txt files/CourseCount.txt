@@ -1,0 +1,4 @@
+SELECT (COUNT(DISTINCT ?course) AS ?totalCourses)
+WHERE {
+  ?course a <http://focu.io/schema#Course> .
+}

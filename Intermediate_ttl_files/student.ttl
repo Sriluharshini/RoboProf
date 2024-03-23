@@ -2,30 +2,26 @@
 @prefix focudata: <http://focu.io/data#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+#student.ttl 
+
 focu:Alice_Johnson a focu:Student ;
-    focudata:competencyTopics "Programming" ;
-    focudata:completedCourses "COMP202" ;
-    focudata:firstName "Alice" ;
-    focudata:lastName "Johnson" ;
-    focudata:studentEmail "alicejohnson@example.com" ;
-    focudata:studentGrades "B" ;
-    focudata:studentID 345678 .
+    focudata:competencyTopics "Programming"^^xsd:string ;
+    focudata:completedCourses focudata:course_COMP_201 ; #changed
+    focudata:studentEmail "alicejohnson@focuample.com"^^xsd:string ;
+    focudata:courseGrade "B"^^xsd:string ;
+    focudata:studentID "345678" .
 
 focu:Jane_Smith a focu:Student ;
     focudata:competencyTopics "Statistics" ;
-    focudata:completedCourses "COMP101" ;
-    focudata:firstName "Jane" ;
-    focudata:lastName "Smith" ;
-    focudata:studentEmail "janesmith@example.com" ;
-    focudata:studentGrades "B+" ;
+    focudata:completedCourses focudata:course_COMP_101 ; #changed
+    focudata:studentEmail "janesmith@focuample.com" ;
+    focudata:courseGrade "B+" ;
     focudata:studentID 789012 .
 
 focu:John_Doe a focu:Student ;
     focudata:competencyTopics "Mathematics" ;
-    focudata:completedCourses "COMP103" ;
-    focudata:firstName "John" ;
-    focudata:lastName "Doe" ;
-    focudata:studentEmail "johndoe@example.com" ;
-    focudata:studentGrades "A," ;
+    focudata:completedCourses focudata:course_COMP_352 ; #changed
+    focudata:studentEmail "johndoe@focuample.com" ;
+    focudata:courseGrade "A" ;
     focudata:studentID 123456 .
 
