@@ -20,6 +20,12 @@ focudata:course_COMP_474 focu:hasLectures focu:lecture_1,
         focudata:Machine_Learning,
         focudata:Natural_Language_Processing .
 
+focudata:course_COMP_352 focu:hasTopic focudata:Graphs .
+
+focudata:course_COMP_451 focu:hasTopic focudata:Databases .
+
+focudata:course_COMP_472 focu:hasTopic focudata:Decision_Trees .
+
 focudata:course_COMP_6721 focu:hasLectures focu:lecture_3 ;
     focu:hasStudent focudata:Alice_Johnson,
         focudata:John_Doe ;

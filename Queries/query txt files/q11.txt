@@ -1,0 +1,16 @@
+# 11. What grades did [student] achieve in [course] [number]?
+PREFIX fo: <http://www.w3.org/1999/XSL/Format#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX focu: <http://focu.io/schema#>
+prefix focudata: <http://focu.io/data#>
+
+SELECT ?courseNumber ?Grades 
+WHERE {
+    focu:John_Doe focudata:completedCourses focudata:course_COMP_352 ;
+                        focudata:courseGrade ?Grades.
+ focu:John_Doe focudata:completedCourses ?courseNumber.
+     
+}

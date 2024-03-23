@@ -26,8 +26,7 @@ g.add((focudata.Alice_Johnson, focu.enrolledIn, focudata.course_COMP_6721))
 g.add((focudata.Jane_Smith, focu.enrolledIn, focudata.course_COMP_474))
 g.add((focudata.John_Doe, focu.enrolledIn, focudata.course_COMP_6721))
 
-
-# Lectures to Topics changed to focu done
+# Lectures to Topics done
 g.add((focu.lecture_2, focu.hasTopics, focudata.IntroductionToIntelligentSystems,))
 g.add((focu.lecture_1, focu.hasTopics, focudata.Knowledge_Representation))
 g.add((focu.lecture_3, focu.hasTopics, focudata.Machine_Learning))
@@ -47,6 +46,9 @@ g.add((focudata.course_COMP_6721, focu.hasTopic, focudata.Machine_Learning))
 g.add((focudata.course_COMP_474, focu.hasTopic, focudata.Machine_Learning))
 g.add((focudata.course_COMP_474, focu.hasTopic, focudata.Knowledge_Representation))
 g.add((focudata.course_COMP_474, focu.hasTopic, focudata.Natural_Language_Processing))
+g.add((focudata.course_COMP_352, focu.hasTopic, focudata.Graphs))
+g.add((focudata.course_COMP_451, focu.hasTopic, focudata.Databases))
+g.add((focudata.course_COMP_472, focu.hasTopic, focudata.Decision_Trees))
 
 # Courses to Lectures done to focu
 g.add((focudata.course_COMP_474, focu.hasLectures, focu.lecture_1))
