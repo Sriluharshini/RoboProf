@@ -12,5 +12,6 @@ prefix focudata: <http://focu.io/data#>
 SELECT ?COURSES ?subjectName
 WHERE {
   focudata:Concordia_University focu:hasCourse ?COURSES .
+  ?COURSES focudata:CourseSubject "COMP" .
   ?COURSES focudata:CourseSubject ?subjectName .
 }
