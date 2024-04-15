@@ -1,0 +1,11 @@
+PREFIX ex: <http://namespacetopic.org/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?courseEvent ?resource ?topic
+WHERE {
+  ex:course_COMP_474 ex:hasCourseEvents ?courseEvent .
+  OPTIONAL {
+    ?courseEvent ex:hasTopics ?topic .
+  }
+  FILTER(!bound(?topic))
+}
