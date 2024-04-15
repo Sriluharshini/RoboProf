@@ -1,0 +1,12 @@
+PREFIX ex: <http://namespacetopic.org/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dbp: <http://dbpedia.org/resource/>
+
+SELECT ?course ?course_event ?resource_uri
+WHERE {
+  ?topic rdfs:label "ML";
+         ex:source ?resource_uri .
+  ?course ex:hasTopic ?topic ;
+          ex:hasCourseEvents ?course_event ;
+ 
+}
