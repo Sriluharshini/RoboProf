@@ -1,0 +1,11 @@
+#15. “Which topics are covered in <COMP_474_lecture_1>?”
+PREFIX ex: <http://namespacetopic.org/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dbp: <http://dbpedia.org/resource/>
+
+SELECT ?topics ?topicName ?resource
+WHERE {
+  ex:COMP_474_lecture_1 ex:hasTopics ?topic .
+  ?topics rdfs:label ?topicName ;
+      	  ex:source ?resource .
+}
