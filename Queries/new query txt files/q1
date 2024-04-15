@@ -1,0 +1,19 @@
+PREFIX ex: <http://example.org/>
+PREFIX dbp: <http://dbpedia.org/resource/> 
+PREFIX ex: <http://namespacetopic.org/> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX focu: <http://focu.io/schema#>
+prefix focudata: <http://focu.io/data#>
+
+SELECT ?topic (SAMPLE(?label) AS ?label_en) (SAMPLE(?dbp) AS ?sample_dbp) (SAMPLE(?src) AS ?sample_src)
+WHERE {
+  focudata:course_COMP_474 focu:hasTopic ?topic .
+  ?topic rdfs:label ?label;
+         ex:dbpedia_link ?dbp ;
+         ex:source ?src .
+}
+GROUP BY ?topic
