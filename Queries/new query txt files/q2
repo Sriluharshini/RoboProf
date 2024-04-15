@@ -1,0 +1,13 @@
+PREFIX ex: <http://namespacetopic.org/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dbp: <http://dbpedia.org/resource/>
+
+SELECT ?course ?event (COUNT(?event) AS ?occurrences)
+WHERE {
+  ?course ex:hasCourseEvents ?event ;
+          ex:hasTopic ?topic .
+  ?topic ex:dbpedia_link ?topicdbp .
+  FILTER(STR(?topicdbp) = "http://dbpedia.org/resource/ML_(programming_language)")
+}
+GROUP BY ?course ?event
+ORDER BY DESC(?occurrences)
