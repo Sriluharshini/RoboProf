@@ -6,12 +6,10 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX focu: <http://focu.io/schema#>
-prefix focudata: <http://focu.io/data#>
 
-SELECT ?topic (SAMPLE(?label) AS ?label_en) (SAMPLE(?dbp) AS ?sample_dbp) (SAMPLE(?src) AS ?sample_src)
+SELECT ?topic (SAMPLE(?label) AS ?label_en) (SAMPLE(?dbp) AS ?dbp_Links) (SAMPLE(?src) AS ?Resource_src_info)
 WHERE {
-  focudata:course_COMP_474 focu:hasTopic ?topic .
+  ex:course_COMP_474 ex:hasTopic ?topic .
   ?topic rdfs:label ?label;
          ex:dbpedia_link ?dbp ;
          ex:source ?src .
