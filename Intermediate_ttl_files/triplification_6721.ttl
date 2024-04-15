@@ -1,0 +1,572 @@
+@prefix dbp: <http://dbpedia.org/resource/> .
+@prefix ex: <http://namespacetopic.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:2_Socrates a ex:Topic ;
+    rdfs:label "2_Socrates" ;
+    ex:dbpedia_link dbp:Socrates ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_6721_LECTURE_3" .
+
+ex:ABC a ex:Topic ;
+    rdfs:label "ABC" ;
+    ex:dbpedia_link dbp:American_Broadcasting_Company ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:ADV_Einstein a ex:Topic ;
+    rdfs:label "ADV_Einstein" ;
+    ex:dbpedia_link dbp:A.D._Vision,
+        dbp:Albert_Einstein ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:AI a ex:Topic ;
+    rdfs:label "AI" ;
+    ex:dbpedia_link dbp:Artificial_intelligence ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_6721_LECTURE_3" .
+
+ex:Agra a ex:Topic ;
+    rdfs:label "Agra" ;
+    ex:dbpedia_link dbp:Agra ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:Alan_Turing a ex:Topic ;
+    rdfs:label "Alan_Turing" ;
+    ex:dbpedia_link dbp:Alan_Turing ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:Alcatraz a ex:Topic ;
+    rdfs:label "Alcatraz" ;
+    ex:dbpedia_link dbp:Alcatraz_Island ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:Algorithm_1_Pick a ex:Topic ;
+    rdfs:label "Algorithm_1_Pick" ;
+    ex:dbpedia_link dbp:XTR ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_6721_LECTURE_3" .
+
+ex:Alison_Cawsey a ex:Topic ;
+    rdfs:label "Alison_Cawsey" ;
+    ex:dbpedia_link dbp:Alison_DiLaurentis ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_6721_LECTURE_3" .
+
+ex:Amber_Stubbs a ex:Topic ;
+    rdfs:label "Amber_Stubbs" ;
+    ex:dbpedia_link dbp:Rennae_Stubbs ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_6721_LECTURE_3" .
+
+ex:Animal_Crackers a ex:Topic ;
+    rdfs:label "Animal_Crackers" ;
+    ex:dbpedia_link dbp:Animal_cracker ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:Arthur_Samuel a ex:Topic ;
+    rdfs:label "Arthur_Samuel" ;
+    ex:dbpedia_link dbp:King_Arthur ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_6721_LECTURE_3" .
+
+ex:BSD_License a ex:Topic ;
+    rdfs:label "BSD_License" ;
+    ex:dbpedia_link dbp:BSD_licenses ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_6721_LECTURE_3" .
+
+ex:Bill_Gates a ex:Topic ;
+    rdfs:label "Bill_Gates" ;
+    ex:dbpedia_link dbp:Bill_Gates ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:Bram_Stoker a ex:Topic ;
+    rdfs:label "Bram_Stoker" ;
+    ex:dbpedia_link dbp:Bram_\(wrestler\) ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:British a ex:Topic ;
+    rdfs:label "British" ;
+    ex:dbpedia_link dbp:United_Kingdom ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2",
+        "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_6721_LECTURE_3" .
+
+ex:Building_Block_Design a ex:Topic ;
+    rdfs:label "Building_Block_Design" ;
+    ex:dbpedia_link dbp:Block_design_test ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_1\\slides\\Introduction_to_deep_learning.txt COMP_6721_LECTURE_1" .
+
+ex:Bush_Wins a ex:Topic ;
+    rdfs:label "Bush_Wins" ;
+    ex:dbpedia_link dbp:George_W._Bush ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:CIA_Documents a ex:Topic ;
+    rdfs:label "CIA_Documents" ;
+    ex:dbpedia_link dbp:Central_Intelligence_Agency ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_6721_LECTURE_3" .
+
+ex:CNN a ex:Topic ;
+    rdfs:label "CNN" ;
+    ex:dbpedia_link dbp:CNN ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_1\\slides\\Introduction_to_deep_learning.txt COMP_6721_LECTURE_1" .
+
+ex:COMP a ex:Topic ;
+    rdfs:label "COMP" ;
+    ex:dbpedia_link dbp:Cartilage_oligomeric_matrix_protein ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_6721_LECTURE_3" .
+
+ex:California a ex:Topic ;
+    rdfs:label "California" ;
+    ex:dbpedia_link dbp:California ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:Cambridge_Analytica a ex:Topic ;
+    rdfs:label "Cambridge_Analytica" ;
+    ex:dbpedia_link dbp:Cambridge_Analytica ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_6721_LECTURE_3" .
+
+ex:Castro_Theatre a ex:Topic ;
+    rdfs:label "Castro_Theatre" ;
+    ex:dbpedia_link dbp:Castro_Theatre ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:Chicago a ex:Topic ;
+    rdfs:label "Chicago" ;
+    ex:dbpedia_link dbp:Chicago ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:Chinese a ex:Topic ;
+    rdfs:label "Chinese" ;
+    ex:dbpedia_link dbp:China ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:Citizen_Kane a ex:Topic ;
+    rdfs:label "Citizen_Kane" ;
+    ex:dbpedia_link dbp:Citizen_Kane ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:Classic_ML a ex:Topic ;
+    rdfs:label "Classic_ML" ;
+    ex:dbpedia_link dbp:ML_\(programming_language\) ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_1\\slides\\Introduction_to_deep_learning.txt COMP_6721_LECTURE_1" .
+
+ex:Concordia a ex:Topic ;
+    rdfs:label "Concordia" ;
+    ex:dbpedia_link dbp:Concordia_University ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:Conditioning_WaveNet a ex:Topic ;
+    rdfs:label "Conditioning_WaveNet" ;
+    ex:dbpedia_link dbp:WaveNet ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_1\\slides\\Introduction_to_deep_learning.txt COMP_6721_LECTURE_1" .
+
+ex:Convolution_A a ex:Topic ;
+    rdfs:label "Convolution_A" ;
+    ex:dbpedia_link dbp:Convolution ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_1\\slides\\Introduction_to_deep_learning.txt COMP_6721_LECTURE_1" .
+
+ex:DL a ex:Topic ;
+    rdfs:label "DL" ;
+    ex:dbpedia_link dbp:Deputy_lieutenant ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_6721_LECTURE_3" .
+
+ex:Dan_Jurafsky_Hi_Dan a ex:Topic ;
+    rdfs:label "Dan_Jurafsky_Hi_Dan" ;
+    ex:dbpedia_link dbp:Daniel_Jurafsky ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:DeepMind a ex:Topic ;
+    rdfs:label "DeepMind" ;
+    ex:dbpedia_link dbp:DeepMind ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_1\\slides\\Introduction_to_deep_learning.txt COMP_6721_LECTURE_1" .
+
+ex:Deep_Language_Processing_Information_Retrieval a ex:Topic ;
+    rdfs:label "Deep_Language_Processing_Information_Retrieval" ;
+    ex:dbpedia_link dbp:Information_retrieval ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:Deep_Learning a ex:Topic ;
+    rdfs:label "Deep_Learning" ;
+    ex:dbpedia_link dbp:Deep_learning ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_1\\slides\\Introduction_to_deep_learning.txt COMP_6721_LECTURE_1",
+        "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:Deep_Learning_Now a ex:Topic ;
+    rdfs:label "Deep_Learning_Now" ;
+    ex:dbpedia_link dbp:Deep_learning ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_1\\slides\\Introduction_to_deep_learning.txt COMP_6721_LECTURE_1" .
+
+ex:Deep_Learning_Spam a ex:Topic ;
+    rdfs:label "Deep_Learning_Spam" ;
+    ex:dbpedia_link dbp:Deep_learning,
+        dbp:Spamming ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:Det_N_PP a ex:Topic ;
+    rdfs:label "Det_N_PP" ;
+    ex:dbpedia_link <http://dbpedia.org/resource/People's_Party_(Spain)> ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:EDA a ex:Topic ;
+    rdfs:label "EDA" ;
+    ex:dbpedia_link dbp:Electronic_design_automation ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_6721_LECTURE_3" .
+
+ex:English a ex:Topic ;
+    rdfs:label "English" ;
+    ex:dbpedia_link dbp:English_language ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:Enron a ex:Topic ;
+    rdfs:label "Enron" ;
+    ex:dbpedia_link dbp:Enron ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_6721_LECTURE_3" .
+
+ex:Euclidean a ex:Topic ;
+    rdfs:label "Euclidean" ;
+    ex:dbpedia_link dbp:Euclidean_space ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_6721_LECTURE_3" .
+
+ex:Falkland_Islands a ex:Topic ;
+    rdfs:label "Falkland_Islands" ;
+    ex:dbpedia_link dbp:Falkland_Islands ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:Fei_Fei_Li a ex:Topic ;
+    rdfs:label "Fei_Fei_Li" ;
+    ex:dbpedia_link dbp:Li_\(surname_李\) ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_1\\slides\\Introduction_to_deep_learning.txt COMP_6721_LECTURE_1" .
+
+ex:Frankfurt a ex:Topic ;
+    rdfs:label "Frankfurt" ;
+    ex:dbpedia_link dbp:Frankfurt ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:French a ex:Topic ;
+    rdfs:label "French" ;
+    ex:dbpedia_link dbp:France ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:GB a ex:Topic ;
+    rdfs:label "GB" ;
+    ex:dbpedia_link dbp:Gigabyte ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:GOFAI a ex:Topic ;
+    rdfs:label "GOFAI" ;
+    ex:dbpedia_link dbp:Symbolic_artificial_intelligence ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:General_Motors a ex:Topic ;
+    rdfs:label "General_Motors" ;
+    ex:dbpedia_link dbp:General_Motors ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:Great_Britain a ex:Topic ;
+    rdfs:label "Great_Britain" ;
+    ex:dbpedia_link dbp:Great_Britain ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:IBM a ex:Topic ;
+    rdfs:label "IBM" ;
+    ex:dbpedia_link dbp:IBM ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:Information_Retrieval a ex:Topic ;
+    rdfs:label "Information_Retrieval" ;
+    ex:dbpedia_link dbp:Information_retrieval ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:Italian a ex:Topic ;
+    rdfs:label "Italian" ;
+    ex:dbpedia_link dbp:Italy ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:James_Pustejovsky a ex:Topic ;
+    rdfs:label "James_Pustejovsky" ;
+    ex:dbpedia_link dbp:James_Pustejovsky ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_6721_LECTURE_3" .
+
+ex:John_V_NP a ex:Topic ;
+    rdfs:label "John_V_NP" ;
+    ex:dbpedia_link dbp:NP_\(complexity\) ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:Kane a ex:Topic ;
+    rdfs:label "Kane" ;
+    ex:dbpedia_link dbp:Kane_\(wrestler\) ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:Los_Angeles a ex:Topic ;
+    rdfs:label "Los_Angeles" ;
+    ex:dbpedia_link dbp:Los_Angeles ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:MIT_Press a ex:Topic ;
+    rdfs:label "MIT_Press" ;
+    ex:dbpedia_link dbp:MIT_Press ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:ML a ex:Topic ;
+    rdfs:label "ML" ;
+    ex:dbpedia_link dbp:ML_\(programming_language\) ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2",
+        "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_6721_LECTURE_3" .
+
+ex:ML_Machine_Learning a ex:Topic ;
+    rdfs:label "ML_Machine_Learning" ;
+    ex:dbpedia_link dbp:Machine_learning ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_6721_LECTURE_3" .
+
+ex:ML_Training a ex:Topic ;
+    rdfs:label "ML_Training" ;
+    ex:dbpedia_link dbp:ML_\(programming_language\) ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_6721_LECTURE_3" .
+
+ex:Machine_Learning a ex:Topic ;
+    rdfs:label "Machine_Learning" ;
+    ex:dbpedia_link dbp:Machine_learning ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_6721_LECTURE_3" .
+
+ex:Manhattan a ex:Topic ;
+    rdfs:label "Manhattan" ;
+    ex:dbpedia_link dbp:Manhattan ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_6721_LECTURE_3" .
+
+ex:Mel_Spectrogram_Predictions a ex:Topic ;
+    rdfs:label "Mel_Spectrogram_Predictions" ;
+    ex:dbpedia_link dbp:Spectrogram ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_1\\slides\\Introduction_to_deep_learning.txt COMP_6721_LECTURE_1" .
+
+ex:Michael_Jackson a ex:Topic ;
+    rdfs:label "Michael_Jackson" ;
+    ex:dbpedia_link dbp:Michael_Jackson ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:Montreal a ex:Topic ;
+    rdfs:label "Montreal" ;
+    ex:dbpedia_link dbp:Montreal ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:Mubarak a ex:Topic ;
+    rdfs:label "Mubarak" ;
+    ex:dbpedia_link dbp:Hosni_Mubarak ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:NER a ex:Topic ;
+    rdfs:label "NER" ;
+    ex:dbpedia_link dbp:Nucleotide_excision_repair ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:NLP_Linguistic a ex:Topic ;
+    rdfs:label "NLP_Linguistic" ;
+    ex:dbpedia_link dbp:Natural_language_processing ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:NP a ex:Topic ;
+    rdfs:label "NP" ;
+    ex:dbpedia_link dbp:NP_\(complexity\) ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:NP_VP a ex:Topic ;
+    rdfs:label "NP_VP" ;
+    ex:dbpedia_link dbp:NP_\(complexity\) ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:NP_VP_9 a ex:Topic ;
+    rdfs:label "NP_VP_9" ;
+    ex:dbpedia_link dbp:NP_\(complexity\) ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:NP_V_ART_N_7 a ex:Topic ;
+    rdfs:label "NP_V_ART_N_7" ;
+    ex:dbpedia_link dbp:NP_\(complexity\) ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:NP_V_NP a ex:Topic ;
+    rdfs:label "NP_V_NP" ;
+    ex:dbpedia_link dbp:NP_\(complexity\) ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:NaN a ex:Topic ;
+    rdfs:label "NaN" ;
+    ex:dbpedia_link dbp:NaN ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_1\\slides\\Introduction_to_deep_learning.txt COMP_6721_LECTURE_1" .
+
+ex:Natural_Language_Annotation_for_Machine_Learning a ex:Topic ;
+    rdfs:label "Natural_Language_Annotation_for_Machine_Learning" ;
+    ex:dbpedia_link dbp:Machine_learning ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_6721_LECTURE_3" .
+
+ex:Netflix a ex:Topic ;
+    rdfs:label "Netflix" ;
+    ex:dbpedia_link dbp:Netflix ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_6721_LECTURE_3" .
+
+ex:Nile a ex:Topic ;
+    rdfs:label "Nile" ;
+    ex:dbpedia_link dbp:Nile ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:Nude_Dancing_on_Governor a ex:Topic ;
+    rdfs:label "Nude_Dancing_on_Governor" ;
+    ex:dbpedia_link dbp:Governor ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:PP a ex:Topic ;
+    rdfs:label "PP" ;
+    ex:dbpedia_link <http://dbpedia.org/resource/People's_Party_(Spain)> ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:Paris a ex:Topic ;
+    rdfs:label "Paris" ;
+    ex:dbpedia_link dbp:Paris ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:Potomac a ex:Topic ;
+    rdfs:label "Potomac" ;
+    ex:dbpedia_link dbp:Potomac_River ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:Princeton_PERSON_ORG_LOC_Information a ex:Topic ;
+    rdfs:label "Princeton_PERSON_ORG_LOC_Information" ;
+    ex:dbpedia_link dbp:Library_of_Congress,
+        dbp:Princeton_University ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:RDFS a ex:Topic ;
+    rdfs:label "RDFS" ;
+    ex:dbpedia_link dbp:RDF_Schema ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_6721_LECTURE_3" .
+
+ex:Robert_Dale a ex:Topic ;
+    rdfs:label "Robert_Dale" ;
+    ex:dbpedia_link dbp:Dale_Jarrett ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:SF a ex:Topic ;
+    rdfs:label "SF" ;
+    ex:dbpedia_link dbp:Science_fiction ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:San_Francisco a ex:Topic ;
+    rdfs:label "San_Francisco" ;
+    ex:dbpedia_link dbp:San_Francisco ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:Sarah_Guido a ex:Topic ;
+    rdfs:label "Sarah_Guido" ;
+    ex:dbpedia_link dbp:Guido_Reni ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_6721_LECTURE_3" .
+
+ex:Shanghai_International_Film_Festival a ex:Topic ;
+    rdfs:label "Shanghai_International_Film_Festival" ;
+    ex:dbpedia_link dbp:Shanghai_International_Film_Festival ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:Shannon a ex:Topic ;
+    rdfs:label "Shannon" ;
+    ex:dbpedia_link dbp:River_Shannon ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:Shannon_Game a ex:Topic ;
+    rdfs:label "Shannon_Game" ;
+    ex:dbpedia_link dbp:River_Shannon ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:Stanford a ex:Topic ;
+    rdfs:label "Stanford" ;
+    ex:dbpedia_link dbp:Stanford_University ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:Statistical_Machine_Translation a ex:Topic ;
+    rdfs:label "Statistical_Machine_Translation" ;
+    ex:dbpedia_link dbp:Machine_translation ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:Target_Predictions a ex:Topic ;
+    rdfs:label "Target_Predictions" ;
+    ex:dbpedia_link dbp:Target_Corporation ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_1\\slides\\Introduction_to_deep_learning.txt COMP_6721_LECTURE_1" .
+
+ex:Tensor a ex:Topic ;
+    rdfs:label "Tensor" ;
+    ex:dbpedia_link dbp:Tensor ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_1\\slides\\Introduction_to_deep_learning.txt COMP_6721_LECTURE_1" .
+
+ex:The_Land_of_Statistical_NLP_Speech_KingdomCity_of a ex:Topic ;
+    rdfs:label "The_Land_of_Statistical_NLP_Speech_KingdomCity_of" ;
+    ex:dbpedia_link dbp:Natural_language_processing ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:UN a ex:Topic ;
+    rdfs:label "UN" ;
+    ex:dbpedia_link dbp:United_Nations ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:United_NP a ex:Topic ;
+    rdfs:label "United_NP" ;
+    ex:dbpedia_link dbp:NP_\(complexity\) ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:Unsupervised_Learning a ex:Topic ;
+    rdfs:label "Unsupervised_Learning" ;
+    ex:dbpedia_link dbp:Unsupervised_learning ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_6721_LECTURE_3" .
+
+ex:V_NP_PP a ex:Topic ;
+    rdfs:label "V_NP_PP" ;
+    ex:dbpedia_link dbp:NP_\(complexity\),
+        <http://dbpedia.org/resource/People's_Party_(Spain)> ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:WILLIAM_WILKINSON a ex:Topic ;
+    rdfs:label "WILLIAM_WILKINSON" ;
+    ex:dbpedia_link dbp:William_Wilkinson_\(architect\) ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:Walmart a ex:Topic ;
+    rdfs:label "Walmart" ;
+    ex:dbpedia_link dbp:Walmart ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:Winograd_Schema_Challenge a ex:Topic ;
+    rdfs:label "Winograd_Schema_Challenge" ;
+    ex:dbpedia_link dbp:Winograd_Schema_Challenge ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:XYZ a ex:Topic ;
+    rdfs:label "XYZ" ;
+    ex:dbpedia_link dbp:CIE_1931_color_space ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:XYZ_Summarization_The_Dow_Jones a ex:Topic ;
+    rdfs:label "XYZ_Summarization_The_Dow_Jones" ;
+    ex:dbpedia_link dbp:CIE_1931_color_space,
+        dbp:Dow_Jones_Industrial_Average ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:a_V_NP a ex:Topic ;
+    rdfs:label "a_V_NP" ;
+    ex:dbpedia_link dbp:NP_\(complexity\) ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:aardwolf a ex:Topic ;
+    rdfs:label "aardwolf" ;
+    ex:dbpedia_link dbp:Aardwolf ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:acoustic a ex:Topic ;
+    rdfs:label "acoustic" ;
+    ex:dbpedia_link dbp:Acoustic_guitar ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:kt_kj_kj a ex:Topic ;
+    rdfs:label "kt_kj_kj" ;
+    ex:dbpedia_link dbp:Joule ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:noun a ex:Topic ;
+    rdfs:label "noun" ;
+    ex:dbpedia_link dbp:Noun ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+
+ex:the_Spanish_LM_4 a ex:Topic ;
+    rdfs:label "the_Spanish_LM_4" ;
+    ex:dbpedia_link dbp:Midfielder ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_6721\\lecture_contents\\lecture_2\\slides\\Natural_language_processing_1.txt COMP_6721_LECTURE_2" .
+

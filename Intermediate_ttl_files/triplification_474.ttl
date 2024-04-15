@@ -1,0 +1,465 @@
+@prefix dbp: <http://dbpedia.org/resource/> .
+@prefix ex: <http://namespacetopic.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:AI a ex:Topic ;
+    rdfs:label "AI" ;
+    ex:dbpedia_link dbp:Artificial_intelligence ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_2\\slides\\slides03.txt COMP_474_LECTURE_2",
+        "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_474_LECTURE_3" .
+
+ex:Algorithm_1_Pick a ex:Topic ;
+    rdfs:label "Algorithm_1_Pick" ;
+    ex:dbpedia_link dbp:XTR ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_474_LECTURE_3" .
+
+ex:Alison_Cawsey a ex:Topic ;
+    rdfs:label "Alison_Cawsey" ;
+    ex:dbpedia_link dbp:Alison_DiLaurentis ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_474_LECTURE_3" .
+
+ex:Amazon_Alexa a ex:Topic ;
+    rdfs:label "Amazon_Alexa" ;
+    ex:dbpedia_link dbp:Amazon_Alexa ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_1\\slides\\slides01.txt COMP_474_LECTURE_1" .
+
+ex:Amber_Stubbs a ex:Topic ;
+    rdfs:label "Amber_Stubbs" ;
+    ex:dbpedia_link dbp:Rennae_Stubbs ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_474_LECTURE_3" .
+
+ex:American a ex:Topic ;
+    rdfs:label "American" ;
+    ex:dbpedia_link dbp:United_States ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_1\\slides\\slides01.txt COMP_474_LECTURE_1" .
+
+ex:Antietam a ex:Topic ;
+    rdfs:label "Antietam" ;
+    ex:dbpedia_link dbp:Battle_of_Antietam ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_1\\slides\\slides01.txt COMP_474_LECTURE_1" .
+
+ex:Apple_Siri a ex:Topic ;
+    rdfs:label "Apple_Siri" ;
+    ex:dbpedia_link dbp:Siri ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_1\\slides\\slides01.txt COMP_474_LECTURE_1" .
+
+ex:Arthur_Samuel a ex:Topic ;
+    rdfs:label "Arthur_Samuel" ;
+    ex:dbpedia_link dbp:King_Arthur ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_474_LECTURE_3" .
+
+ex:Artificial_Intelligence a ex:Topic ;
+    rdfs:label "Artificial_Intelligence" ;
+    ex:dbpedia_link dbp:Artificial_intelligence ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_1\\slides\\slides01.txt COMP_474_LECTURE_1" .
+
+ex:BSD_License a ex:Topic ;
+    rdfs:label "BSD_License" ;
+    ex:dbpedia_link dbp:BSD_licenses ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_474_LECTURE_3" .
+
+ex:Bahar a ex:Topic ;
+    rdfs:label "Bahar" ;
+    ex:dbpedia_link dbp:Bahar_Begum ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_1\\slides\\slides01.txt COMP_474_LECTURE_1" .
+
+ex:Bahar_Sateli a ex:Topic ;
+    rdfs:label "Bahar_Sateli" ;
+    ex:dbpedia_link dbp:Bahar_Begum ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_1\\slides\\slides01.txt COMP_474_LECTURE_1" .
+
+ex:British a ex:Topic ;
+    rdfs:label "British" ;
+    ex:dbpedia_link dbp:United_Kingdom ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_474_LECTURE_3" .
+
+ex:C2_Semantics a ex:Topic ;
+    rdfs:label "C2_Semantics" ;
+    ex:dbpedia_link dbp:Semantics ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_2\\slides\\slides03.txt COMP_474_LECTURE_2" .
+
+ex:CIA_Documents a ex:Topic ;
+    rdfs:label "CIA_Documents" ;
+    ex:dbpedia_link dbp:Central_Intelligence_Agency ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_474_LECTURE_3" .
+
+ex:COMP a ex:Topic ;
+    rdfs:label "COMP" ;
+    ex:dbpedia_link dbp:Cartilage_oligomeric_matrix_protein ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_474_LECTURE_3" .
+
+ex:Cambridge_Analytica a ex:Topic ;
+    rdfs:label "Cambridge_Analytica" ;
+    ex:dbpedia_link dbp:Cambridge_Analytica ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_474_LECTURE_3" .
+
+ex:Chatbot a ex:Topic ;
+    rdfs:label "Chatbot" ;
+    ex:dbpedia_link dbp:Chatbot ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_1\\slides\\slides01.txt COMP_474_LECTURE_1" .
+
+ex:Chatbot_Approaches_Copyright a ex:Topic ;
+    rdfs:label "Chatbot_Approaches_Copyright" ;
+    ex:dbpedia_link dbp:Chatbot ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_1\\slides\\slides01.txt COMP_474_LECTURE_1" .
+
+ex:Christian_Bizer a ex:Topic ;
+    rdfs:label "Christian_Bizer" ;
+    ex:dbpedia_link dbp:Christianity ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_2\\slides\\slides03.txt COMP_474_LECTURE_2" .
+
+ex:Cole_Howard a ex:Topic ;
+    rdfs:label "Cole_Howard" ;
+    ex:dbpedia_link dbp:Cole_Howard ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_1\\slides\\slides01.txt COMP_474_LECTURE_1" .
+
+ex:Concept_Historical_Fiction_Fiction_The_Glass_Palace a ex:Topic ;
+    rdfs:label "Concept_Historical_Fiction_Fiction_The_Glass_Palace" ;
+    ex:dbpedia_link dbp:The_Glass_Palace ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_2\\slides\\slides03.txt COMP_474_LECTURE_2" .
+
+ex:Congress_RDF_Triples a ex:Topic ;
+    rdfs:label "Congress_RDF_Triples" ;
+    ex:dbpedia_link dbp:Resource_Description_Framework,
+        dbp:United_States_Congress ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_2\\slides\\slides03.txt COMP_474_LECTURE_2" .
+
+ex:Cortana a ex:Topic ;
+    rdfs:label "Cortana" ;
+    ex:dbpedia_link dbp:Cortana ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_1\\slides\\slides01.txt COMP_474_LECTURE_1" .
+
+ex:DL a ex:Topic ;
+    rdfs:label "DL" ;
+    ex:dbpedia_link dbp:Deputy_lieutenant ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_474_LECTURE_3" .
+
+ex:EDA a ex:Topic ;
+    rdfs:label "EDA" ;
+    ex:dbpedia_link dbp:Electronic_design_automation ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_474_LECTURE_3" .
+
+ex:English a ex:Topic ;
+    rdfs:label "English" ;
+    ex:dbpedia_link dbp:English_language ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_1\\slides\\slides01.txt COMP_474_LECTURE_1" .
+
+ex:Enron a ex:Topic ;
+    rdfs:label "Enron" ;
+    ex:dbpedia_link dbp:Enron ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_474_LECTURE_3" .
+
+ex:Euclidean a ex:Topic ;
+    rdfs:label "Euclidean" ;
+    ex:dbpedia_link dbp:Euclidean_space ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_474_LECTURE_3" .
+
+ex:FOAF a ex:Topic ;
+    rdfs:label "FOAF" ;
+    ex:dbpedia_link dbp:FOAF_\(ontology\) ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_2\\slides\\slides03.txt COMP_474_LECTURE_2" .
+
+ex:Fredericksburg a ex:Topic ;
+    rdfs:label "Fredericksburg" ;
+    ex:dbpedia_link dbp:Battle_of_Fredericksburg ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_1\\slides\\slides01.txt COMP_474_LECTURE_1" .
+
+ex:French a ex:Topic ;
+    rdfs:label "French" ;
+    ex:dbpedia_link dbp:France ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_1\\slides\\slides01.txt COMP_474_LECTURE_1" .
+
+ex:Gettysburg a ex:Topic ;
+    rdfs:label "Gettysburg" ;
+    ex:dbpedia_link dbp:Battle_of_Gettysburg ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_1\\slides\\slides01.txt COMP_474_LECTURE_1" .
+
+ex:Google a ex:Topic ;
+    rdfs:label "Google" ;
+    ex:dbpedia_link dbp:Google ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_1\\slides\\slides01.txt COMP_474_LECTURE_1" .
+
+ex:Google_Search a ex:Topic ;
+    rdfs:label "Google_Search" ;
+    ex:dbpedia_link dbp:Google_Search ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_1\\slides\\slides01.txt COMP_474_LECTURE_1" .
+
+ex:Hannes_Max_Hapke a ex:Topic ;
+    rdfs:label "Hannes_Max_Hapke" ;
+    ex:dbpedia_link dbp:Max_Branning ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_1\\slides\\slides01.txt COMP_474_LECTURE_1" .
+
+ex:IBM a ex:Topic ;
+    rdfs:label "IBM" ;
+    ex:dbpedia_link dbp:IBM ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_1\\slides\\slides01.txt COMP_474_LECTURE_1" .
+
+ex:IRI a ex:Topic ;
+    rdfs:label "IRI" ;
+    ex:dbpedia_link dbp:Istituto_per_la_Ricostruzione_Industriale ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_2\\slides\\slides03.txt COMP_474_LECTURE_2" .
+
+ex:ISO a ex:Topic ;
+    rdfs:label "ISO" ;
+    ex:dbpedia_link dbp:International_Organization_for_Standardization ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_2\\slides\\slides03.txt COMP_474_LECTURE_2" .
+
+ex:Information_Retrieval a ex:Topic ;
+    rdfs:label "Information_Retrieval" ;
+    ex:dbpedia_link dbp:Information_retrieval ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_1\\slides\\slides01.txt COMP_474_LECTURE_1" .
+
+ex:James_Pustejovsky a ex:Topic ;
+    rdfs:label "James_Pustejovsky" ;
+    ex:dbpedia_link dbp:James_Pustejovsky ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_474_LECTURE_3" .
+
+ex:Json a ex:Topic ;
+    rdfs:label "Json" ;
+    ex:dbpedia_link dbp:JSON ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_2\\slides\\slides03.txt COMP_474_LECTURE_2" .
+
+ex:LOC a ex:Topic ;
+    rdfs:label "LOC" ;
+    ex:dbpedia_link dbp:Library_of_Congress ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_2\\slides\\slides03.txt COMP_474_LECTURE_2" .
+
+ex:LOD a ex:Topic ;
+    rdfs:label "LOD" ;
+    ex:dbpedia_link dbp:Length_overall ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_1\\slides\\slides01.txt COMP_474_LECTURE_1" .
+
+ex:Le_Palais_des_miroirs_est a ex:Topic ;
+    rdfs:label "Le_Palais_des_miroirs_est" ;
+    ex:dbpedia_link dbp:Le_Palais,
+        dbp:Miroirs ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_2\\slides\\slides03.txt COMP_474_LECTURE_2" .
+
+ex:Linked_Data a ex:Topic ;
+    rdfs:label "Linked_Data" ;
+    ex:dbpedia_link dbp:Linked_data ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_2\\slides\\slides03.txt COMP_474_LECTURE_2" .
+
+ex:Liyang_Yu a ex:Topic ;
+    rdfs:label "Liyang_Yu" ;
+    ex:dbpedia_link dbp:Liyang ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_2\\slides\\slides03.txt COMP_474_LECTURE_2" .
+
+ex:London a ex:Topic ;
+    rdfs:label "London" ;
+    ex:dbpedia_link dbp:London ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_2\\slides\\slides03.txt COMP_474_LECTURE_2" .
+
+ex:Luke_Ruth a ex:Topic ;
+    rdfs:label "Luke_Ruth" ;
+    ex:dbpedia_link dbp:Gospel_of_Luke ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_2\\slides\\slides03.txt COMP_474_LECTURE_2" .
+
+ex:ML a ex:Topic ;
+    rdfs:label "ML" ;
+    ex:dbpedia_link dbp:ML_\(programming_language\) ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_474_LECTURE_3" .
+
+ex:ML_Machine_Learning a ex:Topic ;
+    rdfs:label "ML_Machine_Learning" ;
+    ex:dbpedia_link dbp:Machine_learning ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_474_LECTURE_3" .
+
+ex:ML_Training a ex:Topic ;
+    rdfs:label "ML_Training" ;
+    ex:dbpedia_link dbp:ML_\(programming_language\) ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_474_LECTURE_3" .
+
+ex:Machine_Learning a ex:Topic ;
+    rdfs:label "Machine_Learning" ;
+    ex:dbpedia_link dbp:Machine_learning ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_474_LECTURE_3" .
+
+ex:Manhattan a ex:Topic ;
+    rdfs:label "Manhattan" ;
+    ex:dbpedia_link dbp:Manhattan ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_474_LECTURE_3" .
+
+ex:Microsoft a ex:Topic ;
+    rdfs:label "Microsoft" ;
+    ex:dbpedia_link dbp:Microsoft ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_1\\slides\\slides01.txt COMP_474_LECTURE_1" .
+
+ex:Microsoft_Tay a ex:Topic ;
+    rdfs:label "Microsoft_Tay" ;
+    ex:dbpedia_link dbp:Tay_\(bot\) ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_1\\slides\\slides01.txt COMP_474_LECTURE_1" .
+
+ex:Microsoft_Zo a ex:Topic ;
+    rdfs:label "Microsoft_Zo" ;
+    ex:dbpedia_link dbp:Microsoft ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_1\\slides\\slides01.txt COMP_474_LECTURE_1" .
+
+ex:Mona_Lisa a ex:Topic ;
+    rdfs:label "Mona_Lisa" ;
+    ex:dbpedia_link dbp:Mona_Lisa ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_1\\slides\\slides01.txt COMP_474_LECTURE_1" .
+
+ex:Natural_Language_Annotation_for_Machine_Learning a ex:Topic ;
+    rdfs:label "Natural_Language_Annotation_for_Machine_Learning" ;
+    ex:dbpedia_link dbp:Machine_learning ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_474_LECTURE_3" .
+
+ex:Netflix a ex:Topic ;
+    rdfs:label "Netflix" ;
+    ex:dbpedia_link dbp:Netflix ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_474_LECTURE_3" .
+
+ex:Niki_Parmar a ex:Topic ;
+    rdfs:label "Niki_Parmar" ;
+    ex:dbpedia_link dbp:Parmar ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_1\\slides\\slides01.txt COMP_474_LECTURE_1" .
+
+ex:POWER7 a ex:Topic ;
+    rdfs:label "POWER7" ;
+    ex:dbpedia_link dbp:POWER7 ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_1\\slides\\slides01.txt COMP_474_LECTURE_1" .
+
+ex:RDF a ex:Topic ;
+    rdfs:label "RDF" ;
+    ex:dbpedia_link dbp:Resource_Description_Framework ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_1\\slides\\slides01.txt COMP_474_LECTURE_1",
+        "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_2\\slides\\slides03.txt COMP_474_LECTURE_2" .
+
+ex:RDFS a ex:Topic ;
+    rdfs:label "RDFS" ;
+    ex:dbpedia_link dbp:RDF_Schema ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_2\\slides\\slides03.txt COMP_474_LECTURE_2",
+        "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_474_LECTURE_3" .
+
+ex:RDF_Primer a ex:Topic ;
+    rdfs:label "RDF_Primer" ;
+    ex:dbpedia_link dbp:Resource_Description_Framework ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_2\\slides\\slides03.txt COMP_474_LECTURE_2" .
+
+ex:RDF_Schema a ex:Topic ;
+    rdfs:label "RDF_Schema" ;
+    ex:dbpedia_link dbp:RDF_Schema ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_2\\slides\\slides03.txt COMP_474_LECTURE_2" .
+
+ex:RDF_Schema_Constructs a ex:Topic ;
+    rdfs:label "RDF_Schema_Constructs" ;
+    ex:dbpedia_link dbp:RDF_Schema ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_2\\slides\\slides03.txt COMP_474_LECTURE_2" .
+
+ex:RDF_Semantics a ex:Topic ;
+    rdfs:label "RDF_Semantics" ;
+    ex:dbpedia_link dbp:Resource_Description_Framework,
+        dbp:Semantics ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_2\\slides\\slides03.txt COMP_474_LECTURE_2" .
+
+ex:Recommender_Systems a ex:Topic ;
+    rdfs:label "Recommender_Systems" ;
+    ex:dbpedia_link dbp:Recommender_system ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_1\\slides\\slides01.txt COMP_474_LECTURE_1" .
+
+ex:Requires_Information_Extraction a ex:Topic ;
+    rdfs:label "Requires_Information_Extraction" ;
+    ex:dbpedia_link dbp:Information_extraction ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_1\\slides\\slides01.txt COMP_474_LECTURE_1" .
+
+ex:SAAS a ex:Topic ;
+    rdfs:label "SAAS" ;
+    ex:dbpedia_link dbp:Software_as_a_service ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_1\\slides\\slides01.txt COMP_474_LECTURE_1" .
+
+ex:Sarah_Guido a ex:Topic ;
+    rdfs:label "Sarah_Guido" ;
+    ex:dbpedia_link dbp:Guido_Reni ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_474_LECTURE_3" .
+
+ex:Semantic_Web_Technologies a ex:Topic ;
+    rdfs:label "Semantic_Web_Technologies" ;
+    ex:dbpedia_link dbp:Semantic_Web ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_2\\slides\\slides03.txt COMP_474_LECTURE_2" .
+
+ex:TED a ex:Topic ;
+    rdfs:label "TED" ;
+    ex:dbpedia_link dbp:TED_\(conference\) ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_2\\slides\\slides03.txt COMP_474_LECTURE_2" .
+
+ex:Text_Mining_task a ex:Topic ;
+    rdfs:label "Text_Mining_task" ;
+    ex:dbpedia_link dbp:Text_mining ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_1\\slides\\slides01.txt COMP_474_LECTURE_1" .
+
+ex:The_Artist a ex:Topic ;
+    rdfs:label "The_Artist" ;
+    ex:dbpedia_link dbp:The_Artist_\(film\) ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_2\\slides\\slides03.txt COMP_474_LECTURE_2" .
+
+ex:The_Glass_Palace a ex:Topic ;
+    rdfs:label "The_Glass_Palace" ;
+    ex:dbpedia_link dbp:The_Glass_Palace ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_2\\slides\\slides03.txt COMP_474_LECTURE_2" .
+
+ex:The_Illustrated_Transformer a ex:Topic ;
+    rdfs:label "The_Illustrated_Transformer" ;
+    ex:dbpedia_link dbp:Transformer ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_1\\slides\\slides01.txt COMP_474_LECTURE_1" .
+
+ex:UIMA a ex:Topic ;
+    rdfs:label "UIMA" ;
+    ex:dbpedia_link dbp:UIMA ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_1\\slides\\slides01.txt COMP_474_LECTURE_1" .
+
+ex:Unicode a ex:Topic ;
+    rdfs:label "Unicode" ;
+    ex:dbpedia_link dbp:Unicode ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_2\\slides\\slides03.txt COMP_474_LECTURE_2" .
+
+ex:Unsupervised_Learning a ex:Topic ;
+    rdfs:label "Unsupervised_Learning" ;
+    ex:dbpedia_link dbp:Unsupervised_learning ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_3\\slides\\slides06.txt COMP_474_LECTURE_3" .
+
+ex:Vocabulary_FOAF_Model a ex:Topic ;
+    rdfs:label "Vocabulary_FOAF_Model" ;
+    ex:dbpedia_link dbp:FOAF_\(ontology\) ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_2\\slides\\slides03.txt COMP_474_LECTURE_2" .
+
+ex:Weizenbaum a ex:Topic ;
+    rdfs:label "Weizenbaum" ;
+    ex:dbpedia_link dbp:Joseph_Weizenbaum ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_1\\slides\\slides01.txt COMP_474_LECTURE_1" .
+
+ex:World_Wide_Web_Consortium a ex:Topic ;
+    rdfs:label "World_Wide_Web_Consortium" ;
+    ex:dbpedia_link dbp:World_Wide_Web_Consortium ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_2\\slides\\slides03.txt COMP_474_LECTURE_2" .
+
+ex:the_Andes_Mountains a ex:Topic ;
+    rdfs:label "the_Andes_Mountains" ;
+    ex:dbpedia_link dbp:Andes ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_1\\slides\\slides01.txt COMP_474_LECTURE_1" .
+
+ex:the_Civil_War a ex:Topic ;
+    rdfs:label "the_Civil_War" ;
+    ex:dbpedia_link dbp:American_Civil_War ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_1\\slides\\slides01.txt COMP_474_LECTURE_1" .
+
+ex:the_US_Civil_War a ex:Topic ;
+    rdfs:label "the_US_Civil_War" ;
+    ex:dbpedia_link dbp:American_Civil_War ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_1\\slides\\slides01.txt COMP_474_LECTURE_1" .
+
+ex:the_University_of_La_Paz a ex:Topic ;
+    rdfs:label "the_University_of_La_Paz" ;
+    ex:dbpedia_link dbp:La_Paz ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_1\\slides\\slides01.txt COMP_474_LECTURE_1" .
+
+ex:thesauri a ex:Topic ;
+    rdfs:label "thesauri" ;
+    ex:dbpedia_link dbp:Thesaurus ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_2\\slides\\slides03.txt COMP_474_LECTURE_2" .
+
+ex:vvv a ex:Topic ;
+    rdfs:label "vvv" ;
+    ex:dbpedia_link dbp:VVV-Venlo ;
+    ex:source "C:\\Users\\anmol\\Downloads\\Intelligent_System_6741\\build2\\data_dir\\COMP_474\\lecture_contents\\lecture_2\\slides\\slides03.txt COMP_474_LECTURE_2" .
+
