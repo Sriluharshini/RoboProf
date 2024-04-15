@@ -1,0 +1,13 @@
+#16.“Which course events cover <DL>?”
+PREFIX ex: <http://namespacetopic.org/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dbp: <http://dbpedia.org/resource/>
+
+SELECT ?course ?event (COUNT(?event) AS ?occurrences)
+WHERE {
+  ?course ex:hasCourseEvents ?event ;
+          ex:hasTopic ?topic .
+  ?topic rdfs:label "DL" .
+}
+GROUP BY ?course ?event
+ORDER BY DESC(?occurrences)
